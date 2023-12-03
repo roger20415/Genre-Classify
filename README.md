@@ -1,4 +1,4 @@
-# Genre-Classification
+# Genre-Classify
 The term project of NYCU MLP class 2023-12
 
 Reference: 
