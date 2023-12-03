@@ -90,7 +90,8 @@ history = model.fit(X_train, y_train,
                     epochs = 10,
                     verbose = 1,
                     callbacks = [reducelr, earlystop, checkpointer],
-                    validation_split = 0.05)
+                    validation_split = 0.05
+                    shuffle = True)
 
 with open("./model/" + model_name + ".json", "w") as f:
     f.write(model.to_json())
