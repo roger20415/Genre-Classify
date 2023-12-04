@@ -18,10 +18,10 @@
 <br>
 
 ## Operating guide
-#### 1. Put the music data in corressponding folders correctly
+### 1. Put the music data in corressponding folders correctly
 >Follow _Folders and files direction_ section  
   
-#### 2. Run main1.py  
+### 2. Run main1.py  
 _`Note that there are some parameters have to revise according to your projectï¼Œsuch as frame_size, frame_shift, data path`_  
 **main1.py will**  
 >* Load files path from folders  
@@ -31,7 +31,7 @@ _`Note that there are some parameters have to revise according to your projectï¼
 >*  Normalize the data and reshape the data into shape _(n, width, 256, 1)_
 >*  Save the ndarray features and labels into .npy files in "feature" folders
 
-#### 2. Run main2.py  
+### 2. Run main2.py  
 _`Note that there are some parameters have to revise according to your project`_  
 **main2.py will**  
 >* Load features and labels from "feature" folder
