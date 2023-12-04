@@ -1,7 +1,13 @@
 # Genre-Classify
 The term project of NYCU MLP class 2023-12
 
-Package Requirement:
+Classifying music genre by MFCC and deep learning. 
+"genre original"/ "genres_original_debug": storing music data in .wav(ex: ./genre original/training/blues/.wav)
+"main1.py": load wav and extract training and testing feautures and lables to "features" in 4 .npy files
+"main2.py": from "features" import features and do deep learning classifying
+"model": saving the trained model file
+
+Package suggestion:
 # Name                    Version                   Build  Channel
 _tflow_select             2.2.0                     eigen
 absl-py                   0.15.0             pyhd3eb1b0_0
