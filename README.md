@@ -7,8 +7,7 @@ Classifying music genre by MFCC and deep learning.
 "main2.py": from "features" import features and do deep learning classifying
 "model": saving the trained model file
 
-Package suggestion:
-# Name                    Version                   Build  Channel
+# Package suggestion:
 _tflow_select             2.2.0                     eigen
 absl-py                   0.15.0             pyhd3eb1b0_0
 appdirs                   1.4.4                    pypi_0    pypi
@@ -111,6 +110,6 @@ zipp                      3.6.0                    pypi_0    pypi
 zlib                      1.2.13               h8cc25b3_0
 
 
-Reference: 
+# Reference 
 https://www.kaggle.com/code/jvedarutvija/music-genre-classification
 https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification
