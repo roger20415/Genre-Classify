@@ -1,13 +1,14 @@
 # Genre-Classify
 The term project of NYCU MLP class 2023-12
 
+### folders direction
 Classifying music genre by MFCC and deep learning. 
 "genre original"/ "genres_original_debug": storing music data in .wav(ex: ./genre original/training/blues/.wav)
 "main1.py": load wav and extract training and testing feautures and lables to "features" in 4 .npy files
 "main2.py": from "features" import features and do deep learning classifying
 "model": saving the trained model file
 
-# Package suggestion:
+### Package suggestion:
 _tflow_select             2.2.0                     eigen
 absl-py                   0.15.0             pyhd3eb1b0_0
 appdirs                   1.4.4                    pypi_0    pypi
@@ -110,6 +111,6 @@ zipp                      3.6.0                    pypi_0    pypi
 zlib                      1.2.13               h8cc25b3_0
 
 
-# Reference 
+### Reference 
 https://www.kaggle.com/code/jvedarutvija/music-genre-classification
 https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification
