@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on    2023/11/16 10:36
-
-@author: 
-Reference: https://www.kaggle.com/code/tarushijat/music-genre-classification-using-cnn
-"""
-
 import os
 import numpy as np
 import tensorflow as tf
