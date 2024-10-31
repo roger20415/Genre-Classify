@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on    2023/11/16 10:36
-
-@author: roger
-Reference: https://www.kaggle.com/code/tarushijat/music-genre-classification-using-cnn
-"""
 import os
 import sys
 import librosa
