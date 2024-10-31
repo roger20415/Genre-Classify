@@ -1,9 +1,13 @@
 # Genre-Classify
->The term project of NYCU MLP class 2023-12
+>The term project of NYCU MLP class 2023-12  
+  
+![Static Badge](https://img.shields.io/badge/Deep%20Learning-gray)
+![Static Badge](https://img.shields.io/badge/Tensorflow-blue)
+
+
 
 ## Discription
 >This work is to classify music data in to different genres by MFCC and Deep learning
-<br>
 
 ## Folders and files direction
 * "genre original" folder and "genres_original_debug" folder

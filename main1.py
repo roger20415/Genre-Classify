@@ -58,15 +58,6 @@ X_country_test, y_country_test = utils.mfcc_extraction(digit_list = wave_list_co
 X_train, X_test = ml_tools.data_process(X_blue_train, X_blue_test, X_classical_train, X_classical_test, X_country_train, X_country_test , NOR_METHOD, fextrac_para["width"])
 y_train, y_test = np.concatenate((y_blue_train, y_classical_train, y_country_train), axis = 0), np.concatenate((y_blue_test, y_classical_test, y_country_test), axis = 0)
 
-"""
-print("\n\nDEBUG MODE\n\n")
-print(X_train.shape)
-print(X_test.shape)
-print(y_train.shape)
-print(y_train)
-print(y_test.shape)
-print(y_test) """
-
 #save digit data to file X_train X_test 4Darray,  y_train y_test 1Darray
 ml_tools.feature_save(X_train, X_test, y_train, y_test, ml_tools.feature_path)
 
